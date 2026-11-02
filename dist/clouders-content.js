@@ -136,8 +136,9 @@ window.CloudersTeam = {
     ['Redactor de Ofertas', null]
   ],
   users: [['+4.000', 'Usuarios en Beneficios'], ['+4.000', 'Usuarios en Compliance'], ['+2.700', 'Usuarios en el Prode 2026']],
-  // Heatmap rows: one per solution, in map order.
-  rows: [['beneficios', 'Portal Beneficios'], ['pronos', 'PronosClouders'], ['reconocimientos', 'Reconocimientos'], ['compliance', 'Compliance'], ['eventos', 'Eventos y sorteos'], ['bienes', 'Gestión de Bienes'], ['descuentos', 'Descuentos'], ['analisis', 'IA de Compliance'], ['asistente', 'Asistente IA Beneficios']],
+  // Heatmap rows: [id, label, services added into the row]; the portal row also counts its sections.
+  rows: [['beneficios', 'Portal Beneficios', ['beneficios', 'eventos', 'bienes', 'descuentos']], ['pronos', 'PronosClouders'], ['reconocimientos', 'Reconocimientos'], ['compliance', 'Compliance'], ['analisis', 'IA de Compliance'], ['asistente', 'Asistente IA Beneficios']],
+  rowNote: 'Portal Beneficios incluye Eventos y sorteos, Gestión de Bienes y Descuentos.',
   groups: [
     ['Portal del empleado', ['beneficios', 'eventos', 'reconocimientos', 'bienes']],
     ['Normativa e IA', ['compliance', 'analisis']],
@@ -152,11 +153,13 @@ window.CloudersMetrics = development => {
   const done = quarters.flatMap(q => q.done.map(i => ({...i, quarter: q.quarter})));
   const label = quarter => `${quarter.slice(6)}Q ${quarter.slice(2, 4)}`;
   const longLabel = quarter => `${quarter.slice(6)}Q ${quarter.slice(0, 4)}`;
-  const count = (service, quarter) => quarter.done.filter(i => i.service === service).length;
+  // service: one id or a list of ids added together.
+  const count = (service, quarter) => quarter.done.filter(i => [].concat(service).includes(i.service)).length;
   const byService = {};
   for (const item of done) byService[item.service] = (byService[item.service] || 0) + 1;
   const byKind = development.kinds.map(k => ({...k, count: done.filter(i => i.kind === k.id).length})).filter(k => k.count).sort((a, b) => b.count - a.count);
   const current = quarters.find(q => q.inProgress);
   const period = `${longLabel(quarters[0].quarter)} — ${longLabel(quarters.at(-1).quarter)}`;
-  return {quarters, done, label, longLabel, count, byService, byKind, current, period, fronts: quarters.reduce((sum, q) => sum + q.fronts.length, 0)};
+  const total = service => [].concat(service).reduce((sum, id) => sum + (byService[id] || 0), 0);
+  return {quarters, done, label, longLabel, count, total, byService, byKind, current, period, fronts: quarters.reduce((sum, q) => sum + q.fronts.length, 0)};
 };

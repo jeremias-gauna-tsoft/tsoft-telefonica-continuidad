@@ -65,7 +65,7 @@ function build(map) {
   pages.push(page('', `<iframe title="Mapa del ecosistema" srcdoc="${esc(map)}"></iframe>`, {plain: true}));
 
   // Overview between quarters: one heatmap row per solution; the quarter in progress counts closed stories only.
-  const max = Math.max(...team.rows.flatMap(([id]) => metrics.quarters.map(q => metrics.count(id, q))));
+  const max = Math.max(...team.rows.flatMap(([id, , group = [id]]) => metrics.quarters.map(q => metrics.count(group, q))));
   const cell = n => n ? `<td style="--a:${(.12 + .88 * n / max).toFixed(2)}" class="${n / max > .45 ? 'dark' : ''}">${n}</td>` : '<td class="zero">·</td>';
   const active = id => metrics.quarters.filter(q => metrics.count(id, q)).length;
   const peak = id => metrics.quarters.reduce((best, q) => metrics.count(id, q) > metrics.count(id, best) ? q : best);
@@ -73,13 +73,14 @@ function build(map) {
   const notes = [
     `El portal tuvo entregas en los ${active('beneficios')} trimestres: es la base que sostenemos todos los meses.`,
     `PronosClouders llegó a ${metrics.count('pronos', peak('pronos'))} historias en ${metrics.longLabel(peak('pronos').quarter)}, el trimestre del Mundial 2026.`,
-    `Gestión de Bienes y la IA de Compliance despegan en ${metrics.longLabel(first('bienes').quarter)}, sin frenar lo existente.`,
+    `En ${metrics.longLabel(first('bienes').quarter)} despegan la IA de Compliance y Gestión de Bienes (${metrics.count('bienes', first('bienes'))} historias, dentro del portal), sin frenar lo existente.`,
     `${metrics.longLabel(peak('beneficios').quarter)} concentró la nueva arquitectura del portal: Supernova, refactor y búsquedas internas.`
   ];
   const topFronts = q => q.fronts.map(f => ({title: f.title, n: q.done.filter(i => f.id ? i.front === f.id : i.service === f.service && !i.front).length})).sort((a, b) => b.n - a.n).slice(0, 3);
   pages.push(page('Trayectoria del equipo', `<h1>Evolución entre trimestres</h1><p class="sub">Dónde puso el equipo su trabajo, trimestre a trimestre</p>
 <div class="track"><div><div class="track-head"><strong>+${metrics.done.length}</strong><span>historias entregadas en Jira · ${esc(metrics.period)}</span></div>
-<table class="qheat"><thead><tr><th></th>${metrics.quarters.map(q => `<th>${esc(metrics.longLabel(q.quarter))}${q.inProgress ? '<em>en curso</em>' : ''}</th>`).join('')}<th>Total</th></tr></thead><tbody>${team.rows.map(([id, name]) => `<tr><td class="name">${esc(name)}</td>${metrics.quarters.map(q => cell(metrics.count(id, q))).join('')}<td class="sum">${metrics.byService[id] || 0}</td></tr>`).join('')}</tbody><tfoot><tr><td class="name">Historias</td>${metrics.quarters.map(q => `<td>${q.done.length}${q.open.length ? `<small>+${q.open.length} en curso</small>` : ''}</td>`).join('')}<td class="sum">${metrics.done.length}</td></tr></tfoot></table>
+<table class="qheat"><thead><tr><th></th>${metrics.quarters.map(q => `<th>${esc(metrics.longLabel(q.quarter))}${q.inProgress ? '<em>en curso</em>' : ''}</th>`).join('')}<th>Total</th></tr></thead><tbody>${team.rows.map(([id, name, group = [id]]) => `<tr><td class="name">${esc(name)}</td>${metrics.quarters.map(q => cell(metrics.count(group, q))).join('')}<td class="sum">${metrics.total(group)}</td></tr>`).join('')}</tbody><tfoot><tr><td class="name">Historias</td>${metrics.quarters.map(q => `<td>${q.done.length}${q.open.length ? `<small>+${q.open.length} en curso</small>` : ''}</td>`).join('')}<td class="sum">${metrics.done.length}</td></tr></tfoot></table>
+<p class="legend">${esc(team.rowNote)}</p>
 <span class="kicker">Historias por tipo de trabajo</span><div class="stack">${metrics.byKind.map(k => `<i class="kind-${esc(k.id)}" style="flex:${k.count}"></i>`).join('')}</div><div class="kinds">${metrics.byKind.map(k => `<span><i class="kind-${esc(k.id)}"></i>${esc(k.label)} <b>${k.count}</b></span>`).join('')}</div></div>
 <div class="reading"><span class="kicker">Cómo leerlo</span><ul>${notes.map(n => `<li>${esc(n)}</li>`).join('')}</ul>
 <span class="kicker">Frentes principales por trimestre</span><div class="qfronts">${metrics.quarters.map(q => `<div><b>${esc(metrics.longLabel(q.quarter))}</b><span>${topFronts(q).map(f => esc(f.title)).join(' · ')}</span></div>`).join('')}</div></div></div>`));
