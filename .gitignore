@@ -1,0 +1,4 @@
+# Local copies and backups
+*.zip
+*.bak
+node_modules/

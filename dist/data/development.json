@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-26",
+  "source": {
+    "type": "Jira",
+    "label": "Proyecto Desarrollo APK-Servicios Clouders"
+  },
+  "kinds": [
+    {
+      "id": "desarrollo",
+      "label": "Desarrollo"
+    },
+    {
+      "id": "evolucion",
+      "label": "Evolución"
+    },
+    {
+      "id": "medicion",
+      "label": "Medición GTM"
+    },
+    {
+      "id": "incidencia",
+      "label": "Corrección de incidencias"
+    },
+    {
+      "id": "mantenimiento",
+      "label": "Mantenimiento y performance"
+    }
+  ],
+  "quarters": [
+    {
+      "quarter": "2025-Q3",
+      "hasData": true,
+      "status": "done",
+      "start": "2025-07-24",
+      "end": "2025-09-30",
+      "workstreams": [
+        {
+          "title": "Gamificación",
+          "kind": "evolucion",
+          "service": "oraculo"
+        },
+        {
+          "title": "Mantenimiento, performance y mejoras internas",
+          "kind": "mantenimiento",
+          "service": null
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Adaptación de la app a la barra de navegación del sistema",
+          "kind": "evolucion",
+          "service": "oraculo",
+          "tags": null
+        }
+      ]
+    },
+    {
+      "quarter": "2025-Q4",
+      "hasData": true,
+      "status": "done",
+      "start": "2025-10-02",
+      "end": "2025-12-26",
+      "workstreams": [
+        {
+          "title": "Implementación de desarrollos",
+          "kind": "desarrollo",
+          "service": null
+        },
+        {
+          "title": "DCP · segundo medio de pago",
+          "kind": "evolucion",
+          "service": "dcp"
+        },
+        {
+          "title": "Referidos · Fase 2",
+          "kind": "evolucion",
+          "service": "referidos"
+        },
+        {
+          "title": "Gamificación",
+          "kind": "evolucion",
+          "service": "oraculo"
+        },
+        {
+          "title": "Mantenimiento, performance y mejoras internas",
+          "kind": "mantenimiento",
+          "service": null
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Pase a producción de Clouders Panel",
+          "kind": "desarrollo",
+          "service": "panel",
+          "tags": null
+        },
+        {
+          "title": "Referidos: premiación automática del referido, validada por QA",
+          "kind": "desarrollo",
+          "service": "referidos",
+          "tags": null
+        },
+        {
+          "title": "Referidos: servicio actualizado para Clouders Panel",
+          "kind": "evolucion",
+          "service": "referidos",
+          "tags": null
+        },
+        {
+          "title": "Clouders Panel: login y roles actualizados",
+          "kind": "evolucion",
+          "service": "panel",
+          "tags": null
+        },
+        {
+          "title": "Gamificación: 13 microservicios nuevos de backend (FCD/ITG)",
+          "kind": "desarrollo",
+          "service": "gaming",
+          "tags": null
+        },
+        {
+          "title": "Gamificación: máquina de estados de los tiros, con caché y control de tiros simultáneos",
+          "kind": "desarrollo",
+          "service": "gaming",
+          "tags": null
+        },
+        {
+          "title": "Gamificación: pase a producción y ambiente iOS, validado por QA de punta a punta",
+          "kind": "desarrollo",
+          "service": "oraculo",
+          "tags": null
+        },
+        {
+          "title": "Diseño de experiencia: Rueda, trivia, temática navideña y juegos de habilidad",
+          "kind": "desarrollo",
+          "service": "oraculo",
+          "tags": null
+        },
+        {
+          "title": "Rueda de beneficios: integración con los nuevos servicios, trivia, voucher y consejos para compartir",
+          "kind": "evolucion",
+          "service": "oraculo",
+          "tags": null
+        },
+        {
+          "title": "Gamificación: prueba de estrés de los pods y auditoría completa del proceso",
+          "kind": "mantenimiento",
+          "service": "gaming",
+          "tags": null
+        },
+        {
+          "title": "Gamificación: 10 correcciones en la experiencia de juego",
+          "kind": "incidencia",
+          "service": "oraculo",
+          "tags": null
+        },
+        {
+          "title": "Push: mensaje actualizado al comprar un extra",
+          "kind": "evolucion",
+          "service": "push",
+          "tags": null
+        },
+        {
+          "title": "Push: corrección del aviso de próxima recarga con la app cerrada",
+          "kind": "incidencia",
+          "service": "push",
+          "tags": null
+        },
+        {
+          "title": "DCP: segundo medio de pago con tarjeta preferida y borrado de tarjeta, validado por QA",
+          "kind": "desarrollo",
+          "service": "dcp",
+          "tags": null
+        },
+        {
+          "title": "DCP: corrección del servicio de recurrencia en el segundo medio de pago",
+          "kind": "incidencia",
+          "service": "dcp",
+          "tags": null
+        },
+        {
+          "title": "Nuevo deeplink al pedido de eSIM en la app",
+          "kind": "desarrollo",
+          "service": "channel",
+          "tags": null
+        },
+        {
+          "title": "Diseño de la encuesta de satisfacción con Qualtrics",
+          "kind": "desarrollo",
+          "service": "channel",
+          "tags": null
+        },
+        {
+          "title": "Ajuste de íconos en el login por OTP",
+          "kind": "evolucion",
+          "service": "idp",
+          "tags": null
+        },
+        {
+          "title": "Actualización del etiquetado, incluida la compra de gigas",
+          "kind": "medicion",
+          "service": "gtm",
+          "tags": null
+        },
+        {
+          "title": "Login: 3 correcciones (validación de números no Tuenti, texto de validación de mail e ingreso con contraseña en móvil)",
+          "kind": "incidencia",
+          "service": "idp",
+          "tags": null
+        }
+      ]
+    },
+    {
+      "quarter": "2026-Q1",
+      "hasData": true,
+      "status": "open",
+      "start": null,
+      "end": null,
+      "workstreams": [
+        {
+          "title": "Implementación de desarrollos",
+          "kind": "desarrollo",
+          "service": null
+        },
+        {
+          "title": "Mejoras de acceso y medición",
+          "kind": "evolucion",
+          "service": null
+        },
+        {
+          "title": "Integración CI360 en la app Tuenti",
+          "kind": "desarrollo",
+          "service": null
+        },
+        {
+          "title": "Referidos · Fase 2: implementación",
+          "kind": "evolucion",
+          "service": "referidos"
+        },
+        {
+          "title": "DCP · segundo medio de pago: implementación",
+          "kind": "evolucion",
+          "service": "dcp"
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Etiquetado de Recarga Automática",
+          "kind": "medicion",
+          "service": "gtm",
+          "tags": 18
+        },
+        {
+          "title": "Etiquetado de Roaming",
+          "kind": "medicion",
+          "service": "gtm",
+          "tags": 20
+        },
+        {
+          "title": "Nuevos tags de Roaming y del segundo medio de pago (en curso)",
+          "kind": "medicion",
+          "service": "gtm",
+          "tags": 20
+        },
+        {
+          "title": "Login: botón «Olvidé mi usuario» en producción",
+          "kind": "desarrollo",
+          "service": "idp",
+          "tags": null
+        },
+        {
+          "title": "Corrección y ampliación del etiquetado en la compra de gigas",
+          "kind": "incidencia",
+          "service": "gtm",
+          "tags": null
+        },
+        {
+          "title": "Migración de la Rueda de Premios a React Native 0.78",
+          "kind": "evolucion",
+          "service": "oraculo",
+          "tags": null
+        },
+        {
+          "title": "Integración de la plataforma CI360 en la app (en curso)",
+          "kind": "desarrollo",
+          "service": "channel",
+          "tags": null
+        },
+        {
+          "title": "Referidos: Fase 2 implementada en backend",
+          "kind": "desarrollo",
+          "service": "referidos",
+          "tags": null
+        },
+        {
+          "title": "Diseño de gamificación con Referidos: Misiones, versiones 1 y 2",
+          "kind": "desarrollo",
+          "service": "referidos",
+          "tags": null
+        },
+        {
+          "title": "Clouders Panel: panel de referidos optimizado, con búsqueda por referido y filtros (en curso)",
+          "kind": "evolucion",
+          "service": "panel",
+          "tags": null
+        },
+        {
+          "title": "Nueva versión iOS de la app validada por QA",
+          "kind": "evolucion",
+          "service": "channel",
+          "tags": null
+        },
+        {
+          "title": "DCP: baja automática de tarjetas al dar de baja la línea",
+          "kind": "desarrollo",
+          "service": "dcp",
+          "tags": null
+        },
+        {
+          "title": "DCP: correcciones en producción (alta duplicada del segundo medio de pago, nuevos fixes y recarga automática en la compra de combos)",
+          "kind": "incidencia",
+          "service": "dcp",
+          "tags": null
+        }
+      ]
+    },
+    {
+      "quarter": "2026-Q2",
+      "hasData": false,
+      "status": null,
+      "start": null,
+      "end": null,
+      "workstreams": null,
+      "highlights": null
+    },
+    {
+      "quarter": "2026-Q3",
+      "hasData": true,
+      "status": "open",
+      "start": "2026-07-01",
+      "end": null,
+      "workstreams": [
+        {
+          "title": "Super APP Tuenti + Pegasus",
+          "kind": "desarrollo",
+          "service": null
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Cambio de usuario: nuevo servicio de integración ITG-mb-ChangeUser",
+          "kind": "desarrollo",
+          "service": "backoffice",
+          "tags": null
+        },
+        {
+          "title": "Cambio de usuario: mensaje actualizado para el envío de pasaporte",
+          "kind": "evolucion",
+          "service": "backoffice",
+          "tags": null
+        },
+        {
+          "title": "Nuevos tags GTM",
+          "kind": "medicion",
+          "service": "gtm",
+          "tags": 20
+        },
+        {
+          "title": "Beneficios Tuenti: corrección en la pantalla principal (en curso)",
+          "kind": "incidencia",
+          "service": "channel",
+          "tags": null
+        }
+      ]
+    },
+    {
+      "quarter": "2026-Q4",
+      "hasData": false,
+      "status": null,
+      "start": null,
+      "end": null,
+      "workstreams": null,
+      "highlights": null
+    }
+  ]
+}

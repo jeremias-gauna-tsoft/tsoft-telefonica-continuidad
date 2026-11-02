@@ -1,0 +1,18 @@
+{
+  "name": "tsoft-tuenti-ecosistema",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend independiente para explorar los ecosistemas Tuenti y Clouders que acompaña el equipo TSOFT.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check dist/content.js && node --check dist/app.js && node --check dist/history.js && node --check dist/clouders-content.js && node --check dist/clouders.js && node --check dist/home.js && node --check scripts/export_map_pdf.mjs && node --check scripts/export_proposal_pdf.mjs && node --check scripts/export_clouders_map_pdf.mjs && node --check scripts/export_clouders_proposal_pdf.mjs",
+    "import:remedy": "python scripts/import_remedy.py",
+    "test:import": "python -m unittest discover -s scripts -p test_import_remedy.py -v",
+    "pdf:mapa": "node scripts/export_map_pdf.mjs",
+    "pdf:propuesta": "node scripts/export_proposal_pdf.mjs",
+    "pdf:clouders": "node scripts/export_clouders_map_pdf.mjs",
+    "pdf:clouders-propuesta": "node scripts/export_clouders_proposal_pdf.mjs"
+  },
+  "engines": {"node": ">=18"}
+}

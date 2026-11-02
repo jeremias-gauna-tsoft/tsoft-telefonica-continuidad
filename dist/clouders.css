@@ -1,0 +1,57 @@
+/* Clouders portal: reuses styles.css and adds criticality colors, the quarter heatmap and the delivery list. */
+.clouders-board{row-gap:22px}
+.map-node.lv-alto{background:#fff8f0;border-color:#f6e2cc;border-top-color:#ec7a08}
+.map-node.lv-alto:hover{background:#fff1e2}
+.map-node.lv-medio{background:#fdfaec;border-color:#efe5bf;border-top-color:#e3b512}
+.map-node.lv-medio:hover{background:#fbf4d8}
+.node-level{display:inline-block;color:#fff;background:#d60027;border-radius:3px;padding:0 5px;margin-right:4px;letter-spacing:.4px}
+.lv-alto .node-level{background:#ec7a08}.lv-medio .node-level{background:#e3b512;color:#3d3200}
+.node-activity.is-team{background:#4a4252;white-space:nowrap}
+.node-risk{display:block;margin-top:8px;font-size:11px;line-height:1.4;color:#5c5664}
+.node-risk b{color:#222126}
+.support-node .node-level{font-size:9px}
+.criticality-legend i{display:inline-block;width:18px;height:4px;margin-right:6px;vertical-align:middle}
+.criticality-legend .k-red{background:#d60027}.criticality-legend .k-orange{background:#ec7a08}.criticality-legend .k-yellow{background:#e3b512}.criticality-legend .k-grey{background:#bec0c8}
+
+.contribution-facts.five{grid-template-columns:repeat(5,minmax(0,1fr))}
+.contribution .heat-wrap{background:#fff;color:#222126;border-radius:9px;padding:18px 20px;margin-top:6px}
+.heat-wrap h3{margin:0 0 4px;font-size:15px}.heat-wrap p{margin:0 0 10px;font-size:12px;color:#6c6672}
+
+.qheat{width:100%;border-collapse:separate;border-spacing:4px;font-size:14px}
+.qheat th{font-size:12px;font-weight:700;color:#5c5664;text-align:center;line-height:1.2;padding-bottom:2px}
+.qheat th em{display:block;font-style:normal;font-weight:600;font-size:10px;color:#8a8491}
+.qheat td{height:32px;text-align:center;border-radius:4px;background:rgba(45,75,115,var(--a));color:#2d4b73;font-weight:700}
+.qheat td.dark{color:#fff}.qheat td.zero{background:#f4f5f8;color:#c3bfca;font-weight:400}
+.qheat td.name{background:none;text-align:left;font-weight:600;color:#3a3540;white-space:nowrap;padding-right:6px}
+.qheat td.name a:hover{color:#d60027}
+.qheat td.sum{background:none;color:#222126}
+.qheat tfoot td{background:none;color:#222126;border-top:1px solid #e4e2e8;border-radius:0;vertical-align:top;padding-top:4px}
+.qheat tfoot small{display:block;font-size:10px;font-weight:600;color:#8a8491}
+.table-scroll{overflow-x:auto}
+
+.kind-stack{display:flex;gap:2px;height:10px;border-radius:4px;overflow:hidden;margin-top:14px}.kind-stack i{display:block}
+.kind-legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:9px}.kind-legend span{display:flex;align-items:center;gap:6px;font-size:12px;color:#5c5664}.kind-legend span i{width:9px;height:9px;border-radius:50%}.kind-legend b{color:#222126}
+.kind-desarrollo{background:#2d4b73}.kind-evolucion{background:#5b84b1}.kind-diseno{background:#9fc1e3}.kind-calidad{background:#8f88a0}.kind-incidencia{background:#6b6577}.kind-mantenimiento{background:#c9c5d1}
+
+.quarter-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:16px}
+.quarter-card{background:#fff;border:1px solid #e7e6eb;border-top:3px solid #2d4b73;border-radius:8px;padding:14px}
+.quarter-card.open{border-top-style:dashed}
+.quarter-card h3{margin:0;font-size:16px}.quarter-card h3 em{font-style:normal;font-size:11px;font-weight:600;color:#8a8491;margin-left:6px}
+.quarter-card>span{display:block;font-size:12px;color:#6c6672;margin:2px 0 10px}
+.quarter-card ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.quarter-card li{display:flex;justify-content:space-between;gap:8px;font-size:12px;line-height:1.35;background:#f4f6fa;border-radius:4px;padding:5px 8px;color:#2d4b73;font-weight:600}
+.quarter-card li b{flex:none}
+
+.deliveries{display:flex;flex-direction:column;gap:14px}
+.deliveries section{display:grid;grid-template-columns:110px 1fr;gap:14px;border-top:1px solid #eeedf2;padding-top:12px}
+.deliveries h3{margin:0;font-size:14px}.deliveries h3 small{display:block;font-size:11px;font-weight:500;color:#8a8491}
+.deliveries ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.deliveries li{font-size:12px;line-height:1.35;background:#f4f6fa;border-radius:4px;padding:4px 9px;color:#2d4b73}
+.deliveries li.open{background:#fff;border:1px dashed #b9c6d8;color:#6c6672}
+.data-note{font-size:12px;color:#6c6672;margin:10px 0 0}
+
+@media(max-width:1200px){.quarter-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.contribution-facts.five{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:980px){.contribution-facts.five{grid-template-columns:1fr 1fr}.quarter-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:740px){.quarter-grid{grid-template-columns:1fr}.deliveries section{grid-template-columns:1fr;gap:6px}.qheat{font-size:12px}.qheat td{height:28px}}
+/* Screenshots fill their card from the top-left corner, where each app shows its header. */
+.image-window.shot{background:#1d1a24}.image-window.shot img{position:absolute;inset:0;object-fit:cover;object-position:left top}.image-window.shot{position:relative}

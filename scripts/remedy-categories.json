@@ -1,0 +1,9 @@
+[
+  {"id":"dcp","label":"DCP y recurrencia","modules":["DCP","Baja RA","RecargaRecurrente","RecargasManuales"]},
+  {"id":"mercado-pago","label":"Mercado Pago","modules":["MP","MP-MASIVO"]},
+  {"id":"identidad","label":"Identidad y registro","modules":["LoginLogout","Registro","RecuperoUsuario - CambioEmail"]},
+  {"id":"cuenta-perfil","label":"Cuenta, perfil y saldo","modules":["Perfil","Info/Perfil","Info/Perfil, Firewall"]},
+  {"id":"productos","label":"Productos, consumos y app","modules":["Arcochos","CombosyExtras","PrecioComboPower","Config User"]},
+  {"id":"sim","label":"SIM y eSIM","modules":["CASIM","ChangeSIM","ActivateSIM"]},
+  {"id":"crm","label":"CRM y OMS","modules":["CRM"]}
+]

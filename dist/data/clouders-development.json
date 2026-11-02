@@ -1,0 +1,2170 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-11-02",
+  "source": {
+    "type": "Jira",
+    "label": "Proyecto DWC"
+  },
+  "kinds": [
+    {
+      "id": "desarrollo",
+      "label": "Desarrollo"
+    },
+    {
+      "id": "evolucion",
+      "label": "Evolución"
+    },
+    {
+      "id": "diseno",
+      "label": "Diseño UX"
+    },
+    {
+      "id": "calidad",
+      "label": "QA y soporte"
+    },
+    {
+      "id": "incidencia",
+      "label": "Correcciones"
+    },
+    {
+      "id": "mantenimiento",
+      "label": "Mantenimiento"
+    }
+  ],
+  "quarters": [
+    {
+      "quarter": "2025-Q4",
+      "hasData": true,
+      "start": "2025-10-01",
+      "end": "2025-12-31",
+      "fronts": [
+        {
+          "title": "Nueva experiencia del portal",
+          "service": "beneficios"
+        },
+        {
+          "title": "Insignias y reconocimientos",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "PronosClouders 2026",
+          "service": "pronos"
+        },
+        {
+          "title": "Nueva herramienta de Compliance",
+          "service": "compliance"
+        },
+        {
+          "title": "Eventos, sorteos y caja navideña",
+          "service": "eventos"
+        },
+        {
+          "title": "Descuentos y Oportunidades",
+          "service": "descuentos"
+        },
+        {
+          "title": "IA en Beneficios",
+          "service": "asistente"
+        }
+      ],
+      "items": [
+        {
+          "title": "Validación de la estructura de la nueva landing",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Colonias: lectura automática de facturas (BE)",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Colonias: lectura automática de facturas (FE)",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Fibra: guardado del domicilio inicial y modificado",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Carga masiva con más información para el portal",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Diseño de Mi Salud",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Diseño del aviso de cambio de dominio",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Login con el nuevo tenant de Beneficios",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Corrección de la carga masiva de facilitadores",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Sección de cursos",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Diseño primavera en el nuevo dashboard",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Mensaje de disponibilidad de fibra",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Unificación del nuevo dashboard",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Diseño de Mi Tiempo",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Aviso de cambio de dominio",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Actualización del mensaje de fibra",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Pruebas del proceso de Colonias 2026",
+          "kind": "calidad",
+          "service": "beneficios"
+        },
+        {
+          "title": "Imagen en el ícono de perfil (FE)",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Imagen en el ícono de perfil (BE)",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Unificación del nuevo dashboard (segunda etapa)",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Temática de verano",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Temática de Navidad",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Desarrollo de la temática de Navidad",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Pruebas de la nueva experiencia del portal",
+          "kind": "calidad",
+          "service": "beneficios"
+        },
+        {
+          "title": "Nueva interfaz del portal",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Sección Mi Salud (FE)",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Sección Mi Salud (BE)",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Nueva interfaz del portal (segunda etapa)",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Temática de verano (segunda versión)",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Cierre de sesión de todos los usuarios @telefonica.com",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Endpoint de configuración de beneficios",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Mi Salud V2",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Pruebas integrales del portal",
+          "kind": "calidad",
+          "service": "beneficios"
+        },
+        {
+          "title": "Servicio de Mi Salud",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Corrección de la temática de verano",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Mejoras del portal",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Cuarentena configurable en los sorteos",
+          "kind": "evolucion",
+          "service": "eventos"
+        },
+        {
+          "title": "Publicación en Viva",
+          "kind": "desarrollo",
+          "service": "eventos"
+        },
+        {
+          "title": "Caja navideña (BE)",
+          "kind": "desarrollo",
+          "service": "eventos"
+        },
+        {
+          "title": "Caja navideña (FE)",
+          "kind": "desarrollo",
+          "service": "eventos"
+        },
+        {
+          "title": "Publicación en Viva de sorteos y ganadores",
+          "kind": "desarrollo",
+          "service": "eventos"
+        },
+        {
+          "title": "Número de inscriptos en eventos",
+          "kind": "evolucion",
+          "service": "eventos"
+        },
+        {
+          "title": "Diseño de cargas masivas de insignias",
+          "kind": "diseno",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Módulo de insignias (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Insignias del empleado (FE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Experiencia de asignación de insignias",
+          "kind": "diseno",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Administración de insignias (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Insignias del empleado (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Administración de insignias (FE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Cargas masivas de insignias (FE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Cargas masivas de insignias (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Implementación del módulo de insignias",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Selector de insignias",
+          "kind": "evolucion",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Buscador de perfiles de insignias",
+          "kind": "evolucion",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Experiencia y diseño de reconocimientos",
+          "kind": "diseno",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Descuentos y Oportunidades: usabilidad e interacción",
+          "kind": "desarrollo",
+          "service": "descuentos"
+        },
+        {
+          "title": "Descuentos y Oportunidades: búsqueda y navegación",
+          "kind": "desarrollo",
+          "service": "descuentos"
+        },
+        {
+          "title": "Descuentos y Oportunidades: publicaciones",
+          "kind": "desarrollo",
+          "service": "descuentos"
+        },
+        {
+          "title": "Corrección de tipografía en descuentos Movistar",
+          "kind": "incidencia",
+          "service": "descuentos"
+        },
+        {
+          "title": "Actualización de Descuentos Movistar",
+          "kind": "evolucion",
+          "service": "descuentos"
+        },
+        {
+          "title": "IA en la app de Beneficios",
+          "kind": "desarrollo",
+          "service": "asistente"
+        },
+        {
+          "title": "IA en la app de Beneficios (segunda etapa)",
+          "kind": "desarrollo",
+          "service": "asistente"
+        },
+        {
+          "title": "Optimización de la base de pronósticos",
+          "kind": "mantenimiento",
+          "service": "pronos"
+        },
+        {
+          "title": "Administración del Prode 2026",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Estadísticas (BE)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Estadísticas (FE)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Vista del usuario",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "V1 de Pronósticos en desarrollo (BE)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "V1 de Pronósticos en desarrollo (FE)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Mejora de las plantillas de Pronósticos",
+          "kind": "diseno",
+          "service": "pronos"
+        },
+        {
+          "title": "V1 de Pronósticos en desarrollo (FE, segunda etapa)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Carga automática de partidos (BE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Carga automática de partidos (FE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Nueva herramienta de Compliance",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Nueva herramienta de Compliance: administrador",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Pruebas del servicio de Compliance",
+          "kind": "calidad",
+          "service": "compliance"
+        },
+        {
+          "title": "Diseño de las notificaciones",
+          "kind": "diseno",
+          "service": "compliance"
+        },
+        {
+          "title": "Notificaciones de Compliance",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Registro del feedback del administrador",
+          "kind": "incidencia",
+          "service": "compliance"
+        },
+        {
+          "title": "Avance en preguntas anidadas",
+          "kind": "incidencia",
+          "service": "compliance"
+        },
+        {
+          "title": "Marcado de campos obligatorios",
+          "kind": "incidencia",
+          "service": "compliance"
+        },
+        {
+          "title": "Soporte al backend",
+          "kind": "calidad",
+          "service": "compliance"
+        },
+        {
+          "title": "Refactorización del código",
+          "kind": "mantenimiento",
+          "service": "compliance"
+        },
+        {
+          "title": "Soporte en la salida a producción",
+          "kind": "calidad",
+          "service": "compliance"
+        },
+        {
+          "title": "Auditoría de Compliance",
+          "kind": "calidad",
+          "service": "compliance"
+        }
+      ]
+    },
+    {
+      "quarter": "2026-Q1",
+      "hasData": true,
+      "start": "2026-01-01",
+      "end": "2026-03-31",
+      "fronts": [
+        {
+          "title": "Notificaciones y optimización del portal",
+          "service": "beneficios"
+        },
+        {
+          "title": "Gamificación y referidos en el portal",
+          "service": "beneficios",
+          "id": "gamificacion"
+        },
+        {
+          "title": "Reconocimientos masivos",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Integración del Prode con el portal",
+          "service": "pronos"
+        },
+        {
+          "title": "Formularios de Compliance",
+          "service": "compliance"
+        },
+        {
+          "title": "Notificaciones de sorteos",
+          "service": "eventos"
+        },
+        {
+          "title": "Gestión de bienes",
+          "service": "bienes"
+        }
+      ],
+      "items": [
+        {
+          "title": "Módulo de notificaciones (FE)",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Actualización del proceso de información de Bonos Movistar",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Sistema de notificaciones del portal",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Propuesta de verano",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Desarrollo de la propuesta de verano",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Módulo de notificaciones (BE)",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Optimización del código del portal (FE)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Optimización del código del portal (BE)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Colonia: ingreso de empleado e hijos",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Optimización del código del portal (FE, segunda etapa)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Gobierno de las comunicaciones",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Notificaciones de sorteos",
+          "kind": "desarrollo",
+          "service": "eventos"
+        },
+        {
+          "title": "Mejora del buscador de perfiles de insignias",
+          "kind": "diseno",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Correo de emisor y receptor en la reportería",
+          "kind": "evolucion",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Título de la carga masiva de reconocimientos",
+          "kind": "evolucion",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Notificaciones de insignias (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Notificaciones de insignias (FE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Historial de reconocimientos en el perfil",
+          "kind": "incidencia",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Módulo de reconocimientos masivos",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Superposición de partidos",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Agrupación de partidos",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Integración de pronósticos con el portal (FE)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Integración de pronósticos con el portal (BE)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Correcciones del Prode (BE)",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Visualización del fixture",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Formulario de declaración jurada: primera parte (FE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Formulario de declaración jurada: primera parte (BE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Formulario de declaración jurada: segunda parte (FE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Formulario de declaración jurada: segunda parte (BE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Formulario de declaración jurada (FE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Formulario de declaración jurada (BE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Formulario de declaración jurada: nueva versión (FE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Formulario de declaración jurada: nueva versión (BE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Mejora de la pregunta 2 del formulario",
+          "kind": "evolucion",
+          "service": "compliance"
+        },
+        {
+          "title": "Notificaciones de los nuevos formularios",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Habilitar formularios desde el admin (FS)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Habilitar formularios desde el admin (FE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Edición de solicitudes de conflicto de interés aprobadas (BE)",
+          "kind": "evolucion",
+          "service": "compliance"
+        },
+        {
+          "title": "Edición de solicitudes de conflicto de interés aprobadas (FE)",
+          "kind": "evolucion",
+          "service": "compliance"
+        },
+        {
+          "title": "Fichas de los nuevos formularios",
+          "kind": "evolucion",
+          "service": "compliance"
+        },
+        {
+          "title": "Notificaciones de sorteos (BE)",
+          "kind": "desarrollo",
+          "service": "eventos"
+        },
+        {
+          "title": "Notificaciones de sorteos (FE)",
+          "kind": "desarrollo",
+          "service": "eventos"
+        },
+        {
+          "title": "Notificaciones de sorteos (FE, segunda etapa)",
+          "kind": "desarrollo",
+          "service": "eventos"
+        },
+        {
+          "title": "Participantes de eventos privados",
+          "kind": "incidencia",
+          "service": "eventos"
+        },
+        {
+          "title": "Eventos privados en la home",
+          "kind": "incidencia",
+          "service": "eventos"
+        },
+        {
+          "title": "Anular la inscripción a sorteos",
+          "kind": "desarrollo",
+          "service": "eventos"
+        },
+        {
+          "title": "Notificaciones de insignias (BE, nueva etapa)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Notificaciones de insignias (FE, nueva etapa)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Notificaciones de insignias: optimización de librerías",
+          "kind": "mantenimiento",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Título de búsqueda de empleados en insignias",
+          "kind": "incidencia",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Módulo de reconocimientos masivos (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Flujo de reconocimientos masivos",
+          "kind": "diseno",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Likes en reconocimientos (FE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Likes en reconocimientos (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Desasignar una insignia",
+          "kind": "diseno",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Correcciones del Prode (FE)",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Correcciones del Prode (BE, nueva etapa)",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Pruebas del Prode",
+          "kind": "calidad",
+          "service": "pronos"
+        },
+        {
+          "title": "Pruebas del Prode (segunda etapa)",
+          "kind": "calidad",
+          "service": "pronos"
+        },
+        {
+          "title": "Mejoras en el flujo del Prode",
+          "kind": "diseno",
+          "service": "pronos"
+        },
+        {
+          "title": "Optimización de la UI del Prode (FE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Optimización de la UI del Prode (FE, segunda etapa)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Optimización de la UI del Prode (BE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Sección de administrador del Prode",
+          "kind": "diseno",
+          "service": "pronos"
+        },
+        {
+          "title": "Imágenes del portal",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Monto del reintegro (BE)",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Monto del reintegro (FE)",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Calendario del portal",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Funcionamiento de los breadcrumbs",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Corrección de los breadcrumbs",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Integración de la información del portal",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Integración de la información del portal (segunda etapa)",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Admin de Mis beneficios en familia",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Nuevas pantallas de notificaciones",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Nueva versión del portal con correcciones",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Diseño de Gobierno de las comunicaciones",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Diseño de Gobierno de las comunicaciones (segunda etapa)",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Optimización del código del portal (BE, segunda etapa)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Optimización del panel de referidos y gamificación",
+          "kind": "mantenimiento",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Diseño de la vista de gaming",
+          "kind": "diseno",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Pruebas de carga de gamificación (JMeter)",
+          "kind": "calidad",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Documentación Swagger de los servicios de gamificación",
+          "kind": "mantenimiento",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Pruebas de carga de gamificación (JMeter, segunda etapa)",
+          "kind": "calidad",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Pruebas de carga de gamificación (JMeter, tercera etapa)",
+          "kind": "calidad",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Segunda etapa de gamificación y referidos",
+          "kind": "diseno",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Experiencia de gamificación en el portal",
+          "kind": "diseno",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Experiencia de gamificación en el portal (segunda etapa)",
+          "kind": "diseno",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Propuesta de referidos",
+          "kind": "diseno",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Interacción de la experiencia de gamificación",
+          "kind": "diseno",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Módulo de referidos",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Timer en el componente canjeable",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Banner de tiros configurable",
+          "kind": "evolucion",
+          "service": "beneficios",
+          "front": "gamificacion"
+        },
+        {
+          "title": "Tablas del flujo de gestión de bienes",
+          "kind": "desarrollo",
+          "service": "bienes"
+        }
+      ]
+    },
+    {
+      "quarter": "2026-Q2",
+      "hasData": true,
+      "start": "2026-04-01",
+      "end": "2026-06-30",
+      "fronts": [
+        {
+          "title": "Novedades, cursos y comunicaciones del portal",
+          "service": "beneficios"
+        },
+        {
+          "title": "Prode del Mundial 2026",
+          "service": "pronos"
+        },
+        {
+          "title": "Gestión inmobiliaria, rodados y obras de arte",
+          "service": "bienes"
+        },
+        {
+          "title": "Feedback y formularios de Compliance",
+          "service": "compliance"
+        },
+        {
+          "title": "Reconocimiento destacado y vouchers",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Agente de IA para Compliance",
+          "service": "analisis"
+        },
+        {
+          "title": "Refactor y avisos de eventos y sorteos",
+          "service": "eventos"
+        },
+        {
+          "title": "Agente de IA del portal",
+          "service": "asistente"
+        },
+        {
+          "title": "Descuentos y Oportunidades",
+          "service": "descuentos"
+        }
+      ],
+      "items": [
+        {
+          "title": "Feedback para administradores con texto y adjuntos (FE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Feedback para administradores con texto y adjuntos (BE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Módulo de feedback de administradores (BE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Módulo de feedback de administradores (FE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Módulo de feedback con el usuario (BE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Módulo de feedback con el usuario (FE)",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Formularios de regalos y agasajos",
+          "kind": "evolucion",
+          "service": "compliance"
+        },
+        {
+          "title": "Pruebas de Compliance",
+          "kind": "calidad",
+          "service": "compliance"
+        },
+        {
+          "title": "Prueba integral del proceso de Compliance",
+          "kind": "calidad",
+          "service": "compliance"
+        },
+        {
+          "title": "Pruebas de Compliance completo",
+          "kind": "calidad",
+          "service": "compliance"
+        },
+        {
+          "title": "Actualización del formulario de agasajos",
+          "kind": "evolucion",
+          "service": "compliance"
+        },
+        {
+          "title": "Investigación del agente de métricas para el admin",
+          "kind": "desarrollo",
+          "service": "analisis"
+        },
+        {
+          "title": "Diseño del agente de IA de Compliance",
+          "kind": "desarrollo",
+          "service": "analisis"
+        },
+        {
+          "title": "Agente de consulta de Compliance (FE)",
+          "kind": "desarrollo",
+          "service": "analisis"
+        },
+        {
+          "title": "Consultas del agente de Compliance (BE)",
+          "kind": "desarrollo",
+          "service": "analisis"
+        },
+        {
+          "title": "Agente de consulta de Compliance (FE, segunda etapa)",
+          "kind": "desarrollo",
+          "service": "analisis"
+        },
+        {
+          "title": "Agente que analiza solicitudes de conflicto de interés",
+          "kind": "desarrollo",
+          "service": "analisis"
+        },
+        {
+          "title": "Breakout (FS)",
+          "kind": "desarrollo",
+          "service": "analisis"
+        },
+        {
+          "title": "Notificaciones de gestión inmobiliaria",
+          "kind": "desarrollo",
+          "service": "bienes"
+        },
+        {
+          "title": "Descarga masiva de PDF de inmuebles (FE)",
+          "kind": "desarrollo",
+          "service": "bienes"
+        },
+        {
+          "title": "Descarga masiva de PDF de inmuebles (BE)",
+          "kind": "desarrollo",
+          "service": "bienes"
+        },
+        {
+          "title": "Pruebas de gestión inmobiliaria",
+          "kind": "calidad",
+          "service": "bienes"
+        },
+        {
+          "title": "Pruebas de gestión inmobiliaria (segunda etapa)",
+          "kind": "calidad",
+          "service": "bienes"
+        },
+        {
+          "title": "Estados de inmuebles: disponible, reservado, vendido (FE)",
+          "kind": "desarrollo",
+          "service": "bienes"
+        },
+        {
+          "title": "Estados de inmuebles: disponible, reservado, vendido (BE)",
+          "kind": "desarrollo",
+          "service": "bienes"
+        },
+        {
+          "title": "Aviso al admin de nuevos pedidos de inmuebles",
+          "kind": "desarrollo",
+          "service": "bienes"
+        },
+        {
+          "title": "Gestión de rodados y obras de arte (FE)",
+          "kind": "desarrollo",
+          "service": "bienes"
+        },
+        {
+          "title": "Gestión de rodados y obras de arte (BE)",
+          "kind": "desarrollo",
+          "service": "bienes"
+        },
+        {
+          "title": "Diseño de la gestión de rodados y obras de arte",
+          "kind": "diseno",
+          "service": "bienes"
+        },
+        {
+          "title": "Link de cambio de titularidad",
+          "kind": "evolucion",
+          "service": "bienes"
+        },
+        {
+          "title": "Rodados y obras de arte: evolutivos (FE)",
+          "kind": "evolucion",
+          "service": "bienes"
+        },
+        {
+          "title": "Rodados y obras de arte: evolutivos (BE)",
+          "kind": "evolucion",
+          "service": "bienes"
+        },
+        {
+          "title": "Proceso de rodados e inmuebles",
+          "kind": "desarrollo",
+          "service": "bienes"
+        },
+        {
+          "title": "Optimización de la salida del Prode (BE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Correcciones del Prode (FE)",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Grupos en el Prode",
+          "kind": "diseno",
+          "service": "pronos"
+        },
+        {
+          "title": "Grupos en el Prode (FE)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Grupos en el Prode (BE)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Prueba de punta a punta: admin y participante",
+          "kind": "calidad",
+          "service": "pronos"
+        },
+        {
+          "title": "Mejoras y correos del Prode (FE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Mejoras y correos del Prode (BE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Últimos detalles del Prode (FE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Últimos detalles del Prode (BE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Simulación con cientos de usuarios",
+          "kind": "calidad",
+          "service": "pronos"
+        },
+        {
+          "title": "Tour guiado",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Bases y condiciones y preguntas frecuentes",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Pruebas del Prode",
+          "kind": "calidad",
+          "service": "pronos"
+        },
+        {
+          "title": "Mejoras del Prode (FE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Mejoras del Prode (BE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Cierre de mejoras del Prode (FS, UX y líder técnico)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Términos y condiciones (FE)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Términos y condiciones (BE)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Botón para abandonar un grupo",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Volver al grupo en la fase de grupos",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Tope de goles",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Tour guiado: ir al inicio",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Pronóstico con 0 goles",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Liguilla y campeón",
+          "kind": "incidencia",
+          "service": "pronos"
+        },
+        {
+          "title": "Optimización de la salida del Prode (FE)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Optimización de la salida del Prode (BE, segunda etapa)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Pruebas de seguridad del Prode 2026",
+          "kind": "calidad",
+          "service": "pronos"
+        },
+        {
+          "title": "Optimización de la salida del Prode (FE, segunda etapa)",
+          "kind": "evolucion",
+          "service": "pronos"
+        },
+        {
+          "title": "Compartir grupos del Prode",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Gamificación para el Mundial",
+          "kind": "diseno",
+          "service": "pronos"
+        },
+        {
+          "title": "Reconocimiento destacado (FE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Reconocimiento destacado (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Experiencia de insignias masivas",
+          "kind": "diseno",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Entrega de vouchers en reconocimientos masivos (FE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Entrega de vouchers en reconocimientos masivos (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Entrega de vouchers en reconocimientos masivos (FE, segunda etapa)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Refactor del portal: reconocimientos",
+          "kind": "mantenimiento",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Refactor del portal: reconocimientos (segunda etapa)",
+          "kind": "mantenimiento",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Notificaciones de eventos y sorteos",
+          "kind": "desarrollo",
+          "service": "eventos"
+        },
+        {
+          "title": "Refactor del portal: eventos y sorteos (BE)",
+          "kind": "mantenimiento",
+          "service": "eventos"
+        },
+        {
+          "title": "Pruebas masivas de eventos, sorteos y novedades",
+          "kind": "calidad",
+          "service": "eventos"
+        },
+        {
+          "title": "Refactor del portal: eventos, sorteos e imágenes en caché (FE)",
+          "kind": "mantenimiento",
+          "service": "eventos"
+        },
+        {
+          "title": "Actualización del portal de comunicaciones",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Refactor del portal (FE)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Refactor del portal (BE)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Prototipo de búsquedas",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Portal de comunicaciones: análisis",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Últimas novedades de punta a punta (BE)",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Últimas novedades de punta a punta (FE)",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Nueva sección de cursos",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Notificaciones del portal con pruebas",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Vulnerabilidades del portal",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Sección Mi tiempo",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Sección Mi salud",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Ranking de cursos",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Cierre de últimas novedades",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Nueva sección de cursos (segunda etapa)",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Escaneo de seguridad del portal",
+          "kind": "calidad",
+          "service": "beneficios"
+        },
+        {
+          "title": "Estética del portal para el Mundial",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Filtros de novedades y campañas",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Diseño de cursos",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Cambios en el portal de comunicaciones",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Escaneo de seguridad del portal (segunda etapa)",
+          "kind": "calidad",
+          "service": "beneficios"
+        },
+        {
+          "title": "Escaneo de seguridad del portal (tercera etapa)",
+          "kind": "calidad",
+          "service": "beneficios"
+        },
+        {
+          "title": "Estética del portal para el Mundial (segunda etapa)",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Corrección de la cuarentena",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Blacklist",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Filtros de novedades y campañas (segunda etapa)",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Diseño de cursos (segunda etapa)",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Nuevo look and feel Supernova",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Acceso directo a obras sociales y bancos",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Bugs de seguridad del portal",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Agente para el portal de beneficios",
+          "kind": "desarrollo",
+          "service": "asistente"
+        },
+        {
+          "title": "Nuevas opciones en Descuentos y Oportunidades",
+          "kind": "diseno",
+          "service": "descuentos"
+        }
+      ]
+    },
+    {
+      "quarter": "2026-Q3",
+      "hasData": true,
+      "start": "2026-07-01",
+      "end": "2026-09-30",
+      "fronts": [
+        {
+          "title": "Supernova y nueva arquitectura del portal",
+          "service": "beneficios"
+        },
+        {
+          "title": "Búsquedas internas",
+          "service": "beneficios",
+          "id": "busquedas"
+        },
+        {
+          "title": "Empleado del mes y reportería de insignias",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Formulario 2026 y reportes de Compliance",
+          "service": "compliance"
+        },
+        {
+          "title": "Rediseño de Descuentos y Oportunidades",
+          "service": "descuentos"
+        },
+        {
+          "title": "Reportería y agente de IA de Compliance",
+          "service": "analisis"
+        }
+      ],
+      "items": [
+        {
+          "title": "Correcciones de texto",
+          "kind": "incidencia",
+          "service": "compliance"
+        },
+        {
+          "title": "Pruebas del nuevo despliegue: agasajos e invitaciones",
+          "kind": "calidad",
+          "service": "compliance"
+        },
+        {
+          "title": "Consultas del portal de Compliance",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Pruebas del nuevo proceso de formularios",
+          "kind": "calidad",
+          "service": "compliance"
+        },
+        {
+          "title": "Reportes en el portal de Compliance",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Acceso directo al sitio de Compliance",
+          "kind": "evolucion",
+          "service": "compliance"
+        },
+        {
+          "title": "Formulario 2026 de conflicto de intereses con exportación de respuestas",
+          "kind": "desarrollo",
+          "service": "compliance"
+        },
+        {
+          "title": "Reportería con IA en Compliance",
+          "kind": "desarrollo",
+          "service": "analisis"
+        },
+        {
+          "title": "Optimización del agente de Compliance",
+          "kind": "evolucion",
+          "service": "analisis"
+        },
+        {
+          "title": "Integración de pronósticos con el portal (BE, cierre)",
+          "kind": "desarrollo",
+          "service": "pronos"
+        },
+        {
+          "title": "Nuevas opciones en Descuentos y Oportunidades (segunda etapa)",
+          "kind": "diseno",
+          "service": "descuentos"
+        },
+        {
+          "title": "Rediseño de Oportunidades y Descuentos (FE)",
+          "kind": "evolucion",
+          "service": "descuentos"
+        },
+        {
+          "title": "Rediseño de Oportunidades y Descuentos (BE)",
+          "kind": "evolucion",
+          "service": "descuentos"
+        },
+        {
+          "title": "Análisis de la estructura de Descuentos y Oportunidades",
+          "kind": "evolucion",
+          "service": "descuentos"
+        },
+        {
+          "title": "Rediseño de la sección de eventos y sorteos",
+          "kind": "diseno",
+          "service": "eventos"
+        },
+        {
+          "title": "Bot de consultas del portal de beneficios",
+          "kind": "desarrollo",
+          "service": "asistente"
+        },
+        {
+          "title": "Reportería de insignias (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Reportería de insignias (FE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Histórico de insignias",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Endpoints de insignias (FE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Destacado del mes",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Empleado del mes (BE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Empleados del mes en reconocimientos (FE)",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Detalle de reconocimientos para el admin",
+          "kind": "desarrollo",
+          "service": "reconocimientos"
+        },
+        {
+          "title": "Búsquedas internas (FE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "busquedas"
+        },
+        {
+          "title": "Búsquedas internas (BE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "busquedas"
+        },
+        {
+          "title": "Salida a producción de Búsquedas internas (FE)",
+          "kind": "evolucion",
+          "service": "beneficios",
+          "front": "busquedas"
+        },
+        {
+          "title": "Salida a producción de Búsquedas internas (BE)",
+          "kind": "evolucion",
+          "service": "beneficios",
+          "front": "busquedas"
+        },
+        {
+          "title": "Estados de postulación, auditoría y comentarios (FE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "busquedas"
+        },
+        {
+          "title": "Estados de postulación, auditoría y comentarios (BE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "busquedas"
+        },
+        {
+          "title": "Proceso de auditoría",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "busquedas"
+        },
+        {
+          "title": "Desacople de la postulación para quitar invitados",
+          "kind": "evolucion",
+          "service": "beneficios",
+          "front": "busquedas"
+        },
+        {
+          "title": "Nuevo diseño Supernova",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Propuesta de invierno",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Bugs de seguridad del portal (implementación)",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Propuesta de invierno (segunda etapa)",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Nueva versión de Supernova",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Sección de cursos",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Refactor del portal (BE)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Refactor del portal (BE, segunda parte)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Refactor del portal (FE)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Refactor del portal (FE, segunda parte)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Refactor del portal (FE, tercera parte)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Tema de invierno",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Rediseño del panel del admin",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Servicios para el refactor del portal",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Refactor del módulo admin (BE)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Refactor del módulo admin (FE)",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Oferta de planes",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Actualización de empleados en un solo lugar",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Propuesta de primavera",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Menú del administrador",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Grupos AD en el portal",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Menú Supernova con accesos directos a Mis beneficios",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Conexión de las secciones del portal",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Tipografía y botones de Supernova",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Conexión de endpoints del portal",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        },
+        {
+          "title": "Tema de primavera",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Baja del plan 2GB",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Cambio de foto desde el logo",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Ajuste de diseños de campañas",
+          "kind": "diseno",
+          "service": "beneficios"
+        },
+        {
+          "title": "Registro de visualizaciones por usuario y carrera",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Autenticación de perfiles por grupo AD",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Regresión del portal",
+          "kind": "calidad",
+          "service": "beneficios"
+        },
+        {
+          "title": "Admin del precio de DECO (BE)",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Admin del precio de DECO (FE)",
+          "kind": "desarrollo",
+          "service": "beneficios"
+        },
+        {
+          "title": "Secciones del portal a Supernova",
+          "kind": "evolucion",
+          "service": "beneficios"
+        },
+        {
+          "title": "Performance del BE con la nueva arquitectura",
+          "kind": "mantenimiento",
+          "service": "beneficios"
+        }
+      ]
+    },
+    {
+      "quarter": "2026-Q4",
+      "hasData": true,
+      "inProgress": true,
+      "start": "2026-10-01",
+      "end": "2026-12-31",
+      "fronts": [
+        {
+          "title": "Nuevas secciones: Tiempo para Vos, Familia, Salud y reintegros",
+          "service": "beneficios",
+          "id": "secciones"
+        },
+        {
+          "title": "Seguridad y versión 2 del portal",
+          "service": "beneficios"
+        },
+        {
+          "title": "Bot de consultas del portal",
+          "service": "asistente"
+        },
+        {
+          "title": "Rediseño de sorteos",
+          "service": "eventos"
+        },
+        {
+          "title": "Descuentos y Oportunidades",
+          "service": "descuentos"
+        }
+      ],
+      "items": [
+        {
+          "title": "Sección Tiempo para Vos (BE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "secciones"
+        },
+        {
+          "title": "Sección Tiempo para Vos (FE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "secciones"
+        },
+        {
+          "title": "Sección Familia (BE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "secciones"
+        },
+        {
+          "title": "Sección Salud (FE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "secciones"
+        },
+        {
+          "title": "Sección Salud (BE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "secciones"
+        },
+        {
+          "title": "Reintegros de fin de año",
+          "kind": "diseno",
+          "service": "beneficios",
+          "front": "secciones"
+        },
+        {
+          "title": "Reintegros de fin de año (FE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "secciones"
+        },
+        {
+          "title": "Reintegros de fin de año (BE)",
+          "kind": "desarrollo",
+          "service": "beneficios",
+          "front": "secciones"
+        },
+        {
+          "title": "Optimización de Mi salud",
+          "kind": "evolucion",
+          "service": "beneficios",
+          "front": "secciones",
+          "status": "en curso"
+        },
+        {
+          "title": "Issues de seguridad de AppScan",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Issues de seguridad de AppScan (segunda parte)",
+          "kind": "incidencia",
+          "service": "beneficios"
+        },
+        {
+          "title": "Issues de seguridad de AppScan: bloque 1",
+          "kind": "incidencia",
+          "service": "beneficios",
+          "status": "en curso"
+        },
+        {
+          "title": "Issues de seguridad de AppScan: bloque 2",
+          "kind": "incidencia",
+          "service": "beneficios",
+          "status": "en curso"
+        },
+        {
+          "title": "Versión 2 del portal en DESA (BE)",
+          "kind": "mantenimiento",
+          "service": "beneficios",
+          "status": "en curso"
+        },
+        {
+          "title": "Versión 2 del portal en DESA (FE)",
+          "kind": "mantenimiento",
+          "service": "beneficios",
+          "status": "en curso"
+        },
+        {
+          "title": "Regresión del portal",
+          "kind": "calidad",
+          "service": "beneficios"
+        },
+        {
+          "title": "Pruebas de la sección completa de beneficios",
+          "kind": "calidad",
+          "service": "beneficios",
+          "status": "en curso"
+        },
+        {
+          "title": "Flujo de celebridades de fin de año (FE)",
+          "kind": "evolucion",
+          "service": "beneficios",
+          "status": "en curso"
+        },
+        {
+          "title": "Flujo de celebridades de fin de año (BE)",
+          "kind": "evolucion",
+          "service": "beneficios",
+          "status": "en curso"
+        },
+        {
+          "title": "Flujo de campañas del portal",
+          "kind": "diseno",
+          "service": "beneficios",
+          "status": "en curso"
+        },
+        {
+          "title": "Bot de consultas del portal de beneficios (FE)",
+          "kind": "desarrollo",
+          "service": "asistente"
+        },
+        {
+          "title": "Optimización del bot de beneficios",
+          "kind": "evolucion",
+          "service": "asistente",
+          "status": "en curso"
+        },
+        {
+          "title": "Rediseño de la sección de sorteos (FE)",
+          "kind": "desarrollo",
+          "service": "eventos",
+          "status": "en curso"
+        },
+        {
+          "title": "Rediseño de la sección de sorteos (BE)",
+          "kind": "desarrollo",
+          "service": "eventos",
+          "status": "en curso"
+        },
+        {
+          "title": "Optimización de Descuentos y Oportunidades",
+          "kind": "evolucion",
+          "service": "descuentos"
+        },
+        {
+          "title": "Pruebas de Descuentos y Oportunidades",
+          "kind": "calidad",
+          "service": "descuentos",
+          "status": "en curso"
+        }
+      ]
+    }
+  ]
+}

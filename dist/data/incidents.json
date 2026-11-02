@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-26",
+  "source": {
+    "type": "Remedy",
+    "label": "Registro de incidencias de analistas técnicos"
+  },
+  "window": {
+    "start": "2025-11",
+    "end": "2026-10"
+  },
+  "coverage": {
+    "firstReportedMonth": "2026-02",
+    "lastReportedMonth": "2026-10",
+    "completeness": "partial",
+    "reportedMonths": 9
+  },
+  "quality": {
+    "sourceRows": 336,
+    "uniqueIncidents": 335,
+    "duplicateRowsRemoved": 1,
+    "unclassifiedIncidents": 0
+  },
+  "categories": [
+    {
+      "id": "dcp",
+      "label": "DCP y recurrencia"
+    },
+    {
+      "id": "mercado-pago",
+      "label": "Mercado Pago"
+    },
+    {
+      "id": "identidad",
+      "label": "Identidad y registro"
+    },
+    {
+      "id": "cuenta-perfil",
+      "label": "Cuenta, perfil y saldo"
+    },
+    {
+      "id": "productos",
+      "label": "Productos, consumos y app"
+    },
+    {
+      "id": "sim",
+      "label": "SIM y eSIM"
+    },
+    {
+      "id": "crm",
+      "label": "CRM y OMS"
+    }
+  ],
+  "totals": {
+    "all": 335,
+    "byCategory": {
+      "dcp": 134,
+      "mercado-pago": 109,
+      "identidad": 18,
+      "cuenta-perfil": 29,
+      "productos": 38,
+      "sim": 6,
+      "crm": 1
+    }
+  },
+  "months": [
+    {
+      "month": "2025-11",
+      "hasData": false,
+      "isCurrent": false,
+      "total": null,
+      "counts": null
+    },
+    {
+      "month": "2025-12",
+      "hasData": false,
+      "isCurrent": false,
+      "total": null,
+      "counts": null
+    },
+    {
+      "month": "2026-01",
+      "hasData": false,
+      "isCurrent": false,
+      "total": null,
+      "counts": null
+    },
+    {
+      "month": "2026-02",
+      "hasData": true,
+      "isCurrent": false,
+      "total": 10,
+      "counts": {
+        "dcp": 6,
+        "mercado-pago": 0,
+        "identidad": 2,
+        "cuenta-perfil": 0,
+        "productos": 1,
+        "sim": 0,
+        "crm": 1
+      }
+    },
+    {
+      "month": "2026-03",
+      "hasData": true,
+      "isCurrent": false,
+      "total": 18,
+      "counts": {
+        "dcp": 9,
+        "mercado-pago": 0,
+        "identidad": 4,
+        "cuenta-perfil": 2,
+        "productos": 3,
+        "sim": 0,
+        "crm": 0
+      }
+    },
+    {
+      "month": "2026-04",
+      "hasData": true,
+      "isCurrent": false,
+      "total": 18,
+      "counts": {
+        "dcp": 9,
+        "mercado-pago": 0,
+        "identidad": 2,
+        "cuenta-perfil": 0,
+        "productos": 6,
+        "sim": 1,
+        "crm": 0
+      }
+    },
+    {
+      "month": "2026-05",
+      "hasData": true,
+      "isCurrent": false,
+      "total": 18,
+      "counts": {
+        "dcp": 12,
+        "mercado-pago": 0,
+        "identidad": 2,
+        "cuenta-perfil": 0,
+        "productos": 4,
+        "sim": 0,
+        "crm": 0
+      }
+    },
+    {
+      "month": "2026-06",
+      "hasData": true,
+      "isCurrent": false,
+      "total": 13,
+      "counts": {
+        "dcp": 7,
+        "mercado-pago": 0,
+        "identidad": 1,
+        "cuenta-perfil": 0,
+        "productos": 4,
+        "sim": 1,
+        "crm": 0
+      }
+    },
+    {
+      "month": "2026-07",
+      "hasData": true,
+      "isCurrent": false,
+      "total": 10,
+      "counts": {
+        "dcp": 7,
+        "mercado-pago": 0,
+        "identidad": 1,
+        "cuenta-perfil": 0,
+        "productos": 2,
+        "sim": 0,
+        "crm": 0
+      }
+    },
+    {
+      "month": "2026-08",
+      "hasData": true,
+      "isCurrent": false,
+      "total": 23,
+      "counts": {
+        "dcp": 13,
+        "mercado-pago": 0,
+        "identidad": 2,
+        "cuenta-perfil": 8,
+        "productos": 0,
+        "sim": 0,
+        "crm": 0
+      }
+    },
+    {
+      "month": "2026-09",
+      "hasData": true,
+      "isCurrent": false,
+      "total": 61,
+      "counts": {
+        "dcp": 37,
+        "mercado-pago": 2,
+        "identidad": 3,
+        "cuenta-perfil": 17,
+        "productos": 0,
+        "sim": 2,
+        "crm": 0
+      }
+    },
+    {
+      "month": "2026-10",
+      "hasData": true,
+      "isCurrent": true,
+      "total": 164,
+      "counts": {
+        "dcp": 34,
+        "mercado-pago": 107,
+        "identidad": 1,
+        "cuenta-perfil": 2,
+        "productos": 18,
+        "sim": 2,
+        "crm": 0
+      }
+    }
+  ]
+}
