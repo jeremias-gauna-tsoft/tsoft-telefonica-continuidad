@@ -103,7 +103,7 @@ window.CloudersCatalog = {
     relations: [['beneficios', 'Consume los componentes compartidos'], ['compliance', 'Consume los componentes compartidos']]
   },
   asistente: {
-    category: 'En desarrollo', short: 'Asistente IA', title: 'Asistente IA de Beneficios', page: 4,
+    category: 'En desarrollo', short: 'Asistente IA Beneficios', title: 'Asistente IA de Beneficios', page: 4,
     line: 'El empleado consulta sus beneficios en lenguaje natural',
     risk: 'Sin continuidad, el lanzamiento del asistente queda frenado',
     summary: 'Un asistente con IA para que el empleado consulte sus beneficios en lenguaje natural, dentro del portal.',
@@ -137,7 +137,7 @@ window.CloudersTeam = {
   ],
   users: [['+4.000', 'Usuarios en Beneficios'], ['+4.000', 'Usuarios en Compliance'], ['+2.700', 'Usuarios en el Prode 2026']],
   // Heatmap rows: one per solution, in map order.
-  rows: [['beneficios', 'Portal Beneficios'], ['pronos', 'PronosClouders'], ['reconocimientos', 'Reconocimientos'], ['compliance', 'Compliance'], ['eventos', 'Eventos y sorteos'], ['bienes', 'Gestión de Bienes'], ['descuentos', 'Descuentos'], ['analisis', 'IA de Compliance'], ['asistente', 'Asistente IA']],
+  rows: [['beneficios', 'Portal Beneficios'], ['pronos', 'PronosClouders'], ['reconocimientos', 'Reconocimientos'], ['compliance', 'Compliance'], ['eventos', 'Eventos y sorteos'], ['bienes', 'Gestión de Bienes'], ['descuentos', 'Descuentos'], ['analisis', 'IA de Compliance'], ['asistente', 'Asistente IA Beneficios']],
   groups: [
     ['Portal del empleado', ['beneficios', 'eventos', 'reconocimientos', 'bienes']],
     ['Normativa e IA', ['compliance', 'analisis']],
